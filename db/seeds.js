@@ -1,7 +1,7 @@
 const User = require('../models/User')
 const Location = require('../models/User')
 const Properties = require('../models/User')
-const mongoose = require('./connections')
+const mongoose = require('./connection')
 
 // Property Data For First Location
 const propertyOne = new Properties({
@@ -39,14 +39,14 @@ const propertyFive = new Properties({
     dates: '',
     description: ''
 })
+// Location One
 const georgia = new Location({
-   city: 'Atlanta',
-   country: 'United States',
-   properties: [ propertyOne, propertyTwo, propertyThree , propertyFour, propertyFive]
+    city: 'Atlanta',
+    country: 'United States',
+    properties: [propertyOne, propertyTwo, propertyThree, propertyFour, propertyFive]
 })
 // --------
 // User Data
-
 const john = new User({
     username: 'john-doe',
     password: 'abc123',
@@ -54,8 +54,8 @@ const john = new User({
 })
 
 User.remove({})
-.then(()=> Location.remove({}))
-.then(() => Location.insertMany([georgia]))
-.then(() => john.save())
-.then(() => console.log('Saved Sucessfully'))
-.then(() => mongoose.connection.close())
+    .then(() => Location.remove({}))
+    .then(() => Location.insertMany([georgia]))
+    .then(() => john.save())
+    .then(() => console.log('Saved Sucessfully'))
+    .then(() => mongoose.connection.close())
