@@ -5,9 +5,7 @@ import styled from 'styled-components'
 
 const NavBarStyles = styled.div `
 
-
-
-
+background: #457B9D;
 
 `
 

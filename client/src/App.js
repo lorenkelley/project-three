@@ -10,6 +10,8 @@ class App extends Component {
           <NavBar/>
           <Switch>
             {/* <Route exact path="/" component={}/>
+            // you can name yourroutes anything but when you use compnents and call axios
+            // the routesyou have in your  index.js you link them to the components 
             <Route path="/:id" component={}/> */}
           </Switch>
         </div>

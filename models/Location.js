@@ -3,7 +3,13 @@ const Schema = mongoose.Schema
 
 const Location = new Schema({
    city: String,
-   country: String
+   country: String,
+   properties: [
+    {
+        type: Schema.Types.ObjectId,
+        ref: 'Properties'
+    }
+   ]
 
 })
 
