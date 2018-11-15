@@ -1,6 +1,6 @@
 const User = require('../models/User')
-const Location = require('../models/User')
-const Properties = require('../models/User')
+const Location = require('../models/Location')
+const Properties = require('../models/Properties')
 const mongoose = require('./connection')
 
 // Property Data For First Location
@@ -55,6 +55,8 @@ const john = new User({
 
 User.remove({})
     .then(() => Location.remove({}))
+    .then(() => Properties.remove({}))
+    .then(() => Properties.insertMany([propertyOne, propertyTwo, propertyThree, propertyFour, propertyFive]))
     .then(() => Location.insertMany([georgia]))
     .then(() => john.save())
     .then(() => console.log('Saved Sucessfully'))

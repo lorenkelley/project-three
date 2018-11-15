@@ -1,11 +1,13 @@
 const express = require('express')
 const router = express.Router()
-
+const userController = require('../controllers/userController')
+const locationController = require('../controllers/locationController')
+const propertiesController = require('../controllers/propertiesController')
 
 // User Routes
 router.get('/users', userController.index)
 // users by id 
-router.post('users/' ,userController.create)
+router.post('/users' ,userController.create)
 router.get('/users/:userId', userController.show)
 router.patch('/users/:userId' , userController.update)
 router.delete('users/:userId', userController.delete)
