@@ -23,7 +23,7 @@ const userController = {
     delete: (req, res) => {
         User.findByIdAndDelete(req.params.userId)
             .then(() => {
-                res.send(200)
+                res.send('hello')
             })
     },
     create: (req, res) => {
