@@ -5,7 +5,8 @@ const Properties = new Schema({
     image: String,
     rate: Number,
     location: String,
-    dates: String
+    dates: String,
+    description: String
 })
 
 

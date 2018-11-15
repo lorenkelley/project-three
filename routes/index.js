@@ -2,11 +2,12 @@ const express = require('express')
 const router = express.Router()
 
 
-
-// router.get('', .index)
-// router.get('', .show)
-// router.delete('', .delete)
-// router.patch('', .update)
-// router.post('' , .create)
+// User Routes
+router.get('/users', userController.index)
+router.post('users/' ,userController.create)
+router.get('/users/:userId', userController.show)
+router.patch('/users/:userId' , userController.update)
+router.delete('users/:userId', userController.delete)
+// Location Routes
 
 module.exports = router
