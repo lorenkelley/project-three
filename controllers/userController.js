@@ -8,7 +8,7 @@ const userController = {
             })
     },
     show: (req, res) => {
-        User.findById(req.params.userId).populate('ideas')
+        User.findById(req.params.userId).populate('properties')
             .then((user) => {
                 res.send(user)
             })
