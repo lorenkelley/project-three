@@ -50,6 +50,7 @@ const georgia = new Location({
 const john = new User({
     username: 'john-doe',
     password: 'abc123',
+    email: 'john-doe@gmail.com',
     locations: [georgia]
 })
 
