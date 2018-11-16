@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import axios from 'axios'
+// axios is a libray that allows you to make AJAX calls it connects the frontend to the backend
+
 
 class SignInForm extends Component {
     state = {
@@ -16,7 +19,7 @@ class SignInForm extends Component {
 
         axios.post('/users', this.state).then(res => {
 
-            
+
             console.log(res.data)
 
             this.props.history.push(`/users/${res.data._id}`)

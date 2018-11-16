@@ -5,7 +5,7 @@ import styled from 'styled-components'
 
 const NavBarStyles = styled.div `
 
-background: #457B9D;
+background: black;
 
 `
 
@@ -16,6 +16,7 @@ class NavBar extends Component {
             <div>
                 <Link to='/'>Home</Link>
                 <Link to=''>Sign In</Link>
+                <Link to='/admin'>Admin</Link>
             </div>
             </NavBarStyles>
         );
