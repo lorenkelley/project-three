@@ -8,6 +8,7 @@ class HomePage extends Component {
             <div>
                 <h1>Homepage</h1>
                   <NavBar/>
+                 
             </div>
         );
     }
