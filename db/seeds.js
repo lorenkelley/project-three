@@ -6,10 +6,10 @@ const mongoose = require('./connection')
 // Property Data For First Location
 const propertyOne = new Properties({
     image: 'https://images.unsplash.com/photo-1514053026555-49ce8886ae41?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bf1b03e32965fe620418a04acaef217d&auto=format&fit=crop&w=634&q=80',
-    rate: '150.00 per day',
+    rate: '150.00',
     location: 'Atlanta, Georgia',
     dates: '12/20/2018-1/20/2018 ',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro blanditiis fugit cumque autem minima itaque ea earum? Delectus dolores quo commodi sequi repellat non nulla, voluptatum nemo? Ducimus, ut cupiditate.'
+    description: ''
 })
 const propertyTwo = new Properties({
     image: '',
