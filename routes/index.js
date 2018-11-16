@@ -5,21 +5,21 @@ const locationController = require('../controllers/locationController')
 const propertiesController = require('../controllers/propertiesController')
 
 // User Routes
-router.get('/users', userController.index)
+router.get('/api/users', userController.index)
 // users by id 
-router.post('/users' ,userController.create)
-router.get('/users/:userId', userController.show)
-router.patch('/users/:userId' , userController.update)
-router.delete('users/:userId', userController.delete)
+router.post('/api/users' ,userController.create)
+router.get('/api/users/:userId', userController.show)
+router.patch('/api/users/:userId' , userController.update)
+router.delete('/api/users/:userId', userController.delete)
 // ---------------
 // Location Routes
-router.get('/location' , locationController.index)
+router.get('/api/location' , locationController.index)
 //  location homepage : display all locations
-router.get('/location/:locationId', locationController.show)
+router.get('/api/location/:locationId', locationController.show)
 //  when you select a location take you to that specific location id
 // ----------------
 // Properties Routes
-router.get('/location/:locationId/properties' , propertiesController.index )
+router.get('/api/location/:locationId/properties' , propertiesController.index )
 
 
 
