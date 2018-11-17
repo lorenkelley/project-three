@@ -12,7 +12,8 @@ class SignInPage extends Component {
         return (
             <div>
                 <h1>The Perfect Tool For Creatives! Sign Up To Get Started</h1>
-            <SignInForm/>
+            <SignInForm {...this.props}/>
+                        {/* the spread operator is cloning  */}
             </div>
         );
     }
