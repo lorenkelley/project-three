@@ -9,20 +9,21 @@ class SignInForm extends Component {
         // set as empty string
         password: ''
     }
-    handleInput = (e) => {
-        const { name, value } = e.target
+    handleInput = (event) => {
+        const { name, value } = event.target
         //name is being referenced to from the input name="....."
         this.setState({ [name]: value })
     }
     submitButton = (event) => {
         event.preventDefault()
 
-        axios.post('/users', this.state).then(res => {
+        axios.post('/api/users', this.state).then(res => {
 
 
             console.log(res.data)
 
-            this.props.history.push(`/users/${res.data._id}`)
+            this.props.history.push(`/users`)
+            // (`/users/${res.data._id}`)
         })
     }
     render() {

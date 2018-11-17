@@ -15,7 +15,7 @@ class NavBar extends Component {
             <NavBarStyles>
             <div>
                 <Link to='/'>Home</Link>
-                <Link to=''>Sign In</Link>
+                <Link to='/sign-in'>Sign In</Link>
                 <Link to='/admin'>Admin</Link>
             </div>
             </NavBarStyles>

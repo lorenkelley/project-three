@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import axios from 'axios'
 
 class Admin extends Component {
     state ={
@@ -7,7 +8,17 @@ class Admin extends Component {
         // set empty array so that it can be filled with data
     }
 
-    get
+    getAllUsers = () => {
+        axios.get('/api/users').then((res) => {
+            this.setState({users: res.data})
+        })
+    }
+    
+    componentDidMount(){
+        this.getAllUsers()
+    }
+
+
     render() {
         return (
             <div>
