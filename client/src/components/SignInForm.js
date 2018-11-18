@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios'
 // axios is a libray that allows you to make AJAX calls it connects the frontend to the backend
-
+import {Container, Col, FormGroup, Label, Input, Button} from 'reactstrap'
 
 class SignInForm extends Component {
     state = {
@@ -27,24 +27,28 @@ class SignInForm extends Component {
     }
     render() {
         return (
-            <div>
-                <form onSubmit={this.submitButton}>
+            <Container>
+                <form onSubmit={this.submitButton}> 
+                <Col>
+                <FormGroup>
                     <div>
-                        <label htmlFor="username"> Username</label>
-                        <input onChange={this.handleInput} value={this.state.username} type="text" name="username" />
+                        <Label htmlFor="username"> Username</Label>
+                        <Input onChange={this.handleInput} value={this.state.username} type="text" name="username" />
                     </div>
                     <div>
-                        <label htmlFor="password">Password</label>
-                        <input onChange={this.handleInput} value={this.state.password} type="text" name="password" />
+                        <Label htmlFor="password">Password</Label>
+                        <Input onChange={this.handleInput} value={this.state.password} type="text" name="password" />
                     </div>
                     <div>
-                        <label htmlFor="email">Email</label>
-                        <input onChange={this.handleInput} value={this.state.email} type="email" name="email" />
+                        <Label htmlFor="email">Email</Label>
+                        <Input onChange={this.handleInput} value={this.state.email} type="email" name="email" />
                     </div>
-                    <button type="submit">Create Account</button>
+                    <Button type="submit">Create Account</Button>
 
+                </FormGroup>
+                </Col>
                 </form>
-            </div>
+            </Container>
         );
     }
 }
