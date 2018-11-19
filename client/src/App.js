@@ -6,12 +6,13 @@ import Admin from './components/Admin'
 import Location from './components/Location'
 
 
+
 class App extends Component {
   render () {
     return (
       <Router>
         <div>
-        
+  
           <Switch>
             {/*  you can name your routes on the App.js anything (they are simply linking the components) 
              when you use compnents and call axios
