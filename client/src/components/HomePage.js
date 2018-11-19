@@ -4,6 +4,7 @@ import Carousel from './Carousel'
 import { Container, Row, Col } from 'reactstrap'
 import U from '../images/U.jpg'
 import styled from 'styled-components'
+import '../Slider.css'
 
  const Backcolor = styled.div `
  border: solid;
@@ -12,8 +13,11 @@ import styled from 'styled-components'
  
  background-image: linear-gradient( #FDFBFB, #EBEDEE) ;
 
-`
-
+// `
+// const ImageR = styled.img `
+// height: 100px;
+// width: 50px;
+// `
 
 class HomePage extends Component {
     render() {
@@ -26,9 +30,9 @@ class HomePage extends Component {
         <Row>
           <Col>.col</Col>
         </Row>
-      
-        <img src={U} alt="logo"/>
-        
+      {/* <ImageR> */}
+        <img src={U} alt="logo" className='logo'/>
+        {/* </ImageR> */}
         {/* <Carousel/> */}
         
         <Row>
