@@ -5,7 +5,7 @@ import styled from 'styled-components'
 
 const NavBarStyles = styled.div `
 
-background: pink;
+// background: pink;
 
 `
 
@@ -24,3 +24,5 @@ class NavBar extends Component {
 }
 
 export default NavBar;
+
+
