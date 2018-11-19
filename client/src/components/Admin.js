@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios'
+import {Link} from 'react-router-dom'
 
 class Admin extends Component {
     state ={
@@ -25,8 +26,9 @@ class Admin extends Component {
                 <h3>ALL USERS</h3>
                 {this.state.users.map((user) => (
                     // .map
+                    
                     <div key={user._id}>
-                    {user.username}
+                   <Link to={`/users/${user._id}`}>{user.username}</Link> 
                     {user.email}
                 
 

@@ -8,14 +8,11 @@ import '../Slider.css'
 
 const Backcolor = styled.div`
  border: solid 20px white;
- height: 700px;
+ height: 900px;
  width: 90rem;
-
-   background-image: linear-gradient( #abbaab, #ffffff) ;
-
-  // background-image: linear-gradient( #403a3e, #be58) ;
-
-//  background-image: linear-gradient( #bdc3c7, #2c3e50) ;
+  //  background-image: linear-gradient( #abbaab, #ffffff) ;
+   background-image: linear-gradient(  #000000, #434343) ;
+  
 `
 
 

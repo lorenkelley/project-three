@@ -4,7 +4,7 @@ import HomePage from './components/HomePage'
 import SignInPage from './components/SignInPage'
 import Admin from './components/Admin'
 import Location from './components/Location'
-
+import UserProfile from './components/UserProfile'
 
 
 class App extends Component {
@@ -21,6 +21,7 @@ class App extends Component {
              <Route exact path="/sign-in" component={SignInPage}/> 
              <Route exact path="/admin" component={Admin}/> 
              <Route exact path="/locations" component={Location}/>
+             <Route path="/:id" component={UserProfile}/> 
              <Route path="/" component={HomePage}/> 
           </Switch>
         </div>
