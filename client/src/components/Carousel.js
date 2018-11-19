@@ -65,7 +65,7 @@ class Example extends Component {
 
     const slides = items.map((item) => {
       return (
-        <CarouselItem  className='img'
+        <CarouselItem  className='Images'
           onExiting={this.onExiting}
           onExited={this.onExited}
           key={item.src}

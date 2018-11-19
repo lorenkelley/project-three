@@ -1,14 +1,45 @@
+
+@font-face {
+    font-family: 'minaxihairline_text';
+    src: url('minaxi_hairline_text-webfont.woff2') format('woff2'),
+         url('minaxi_hairline_text-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 .slides{
     height: 600px;
-    margin-left: 50px;
+    width:  1100px;
  }
- /* img{
-  margin-left: -20%;
-     height: 670px !important;
-     width:  1500px !important;
-     border: 1px solid red;
- } */
+ Images{
+ 
+     height: 600px;
+     width:  1100px;
+     
+ }
  .log{
      height: 5px;
      width: 10px;
+ }
+ .Jumbo{
+     border: none;
+     height: 18rem;
+     width: 15rem;
+     margin-left: 25px;
+     background-color: white;
+     z-index: 7;
+     position: relative;
+ }
+ .MiniJumbo{
+     height: 50px;
+     width: 15rem;
+     margin-top: -150px;
+     margin-left: 25px;
+     color: dimgrey;
+     border: solid rgba(0, 0, 0, 0.057);
+     text-align: center;
+     font-family: 'minaxihairline_text';
+     z-index: 7;
+     position: relative;
+     
  }

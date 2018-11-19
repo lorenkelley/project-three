@@ -6,36 +6,34 @@ import { Jumbotron, Container } from 'reactstrap';
 import styled from 'styled-components'
 import '../Slider.css'
 
- const Backcolor = styled.div `
+const Backcolor = styled.div`
  border: solid 20px white;
  height: 700px;
  width: 90rem;
- 
- background-image: linear-gradient( #bdc3c7, #2c3e50) ;
-`
-const Jumbo = styled.Jumbotron`
-background-image: ./images/U.jpg
 
+   background-image: linear-gradient( #abbaab, #ffffff) ;
+
+  // background-image: linear-gradient( #403a3e, #be58) ;
+
+//  background-image: linear-gradient( #bdc3c7, #2c3e50) ;
 `
+
+
 
 class HomePage extends Component {
-    render() {
-        return (
-            <Backcolor>
-            
-            <div>
-      <Jumbotron fluid className='Jumbo'>
-        <Container fluid>
-          <h1 className="display-3">Fluid jumbotron</h1>
-          
-        </Container>
-      </Jumbotron>
-    </div>
-
+  render() {
+    return (
+      <Backcolor>
         
-            </Backcolor>
-        );
-    }
+        <div className='Jumbo'>
+        </div>
+        <div className='MiniJumbo'>
+        <h1>STUDIO U</h1>
+        </div>
+       <Carousel/>
+      </Backcolor>
+    );
+  }
 }
 
 export default HomePage;
