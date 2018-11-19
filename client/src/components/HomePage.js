@@ -25,7 +25,7 @@ class HomePage extends Component {
         <div className='Jumbo'>
         </div>
         <div className='MiniJumbo'>
-        <h1>STUDIO U</h1>
+        <h1 className='Word'>STUDIO U</h1>
         </div>
        <Carousel/>
       </Backcolor>

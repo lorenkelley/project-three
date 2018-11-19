@@ -24,7 +24,6 @@
      width: 10px;
  }
  .Jumbo{
-     border: none;
      height: 18rem;
      width: 15rem;
      margin-left: 25px;
@@ -44,4 +43,8 @@
      z-index: 7;
      position: relative;
      
+ }
+ .Word{
+     text-shadow: 5px 5px rgba(228, 223, 223, 0.79);
+     font-weight: bold;
  }
