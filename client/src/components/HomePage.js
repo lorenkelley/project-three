@@ -1,48 +1,38 @@
 import React, { Component } from 'react'
 import NavBar from './NavBar'
 import Carousel from './Carousel'
-import { Container, Row, Col } from 'reactstrap'
-import U from '../images/U.jpg'
+import { Jumbotron, Container } from 'reactstrap';
+
 import styled from 'styled-components'
 import '../Slider.css'
 
  const Backcolor = styled.div `
- border: solid;
+ border: solid 20px white;
  height: 700px;
  width: 90rem;
  
- background-image: linear-gradient( #FDFBFB, #EBEDEE) ;
+ background-image: linear-gradient( #bdc3c7, #2c3e50) ;
+`
+const Jumbo = styled.Jumbotron`
+background-image: ./images/U.jpg
 
-// `
-// const ImageR = styled.img `
-// height: 100px;
-// width: 50px;
-// `
+`
 
 class HomePage extends Component {
     render() {
         return (
             <Backcolor>
+            
             <div>
-                  <NavBar/>
-                
-     <Container>
-        <Row>
-          <Col>.col</Col>
-        </Row>
-      {/* <ImageR> */}
-        <img src={U} alt="logo" className='logo'/>
-        {/* </ImageR> */}
-        {/* <Carousel/> */}
+      <Jumbotron fluid className='Jumbo'>
+        <Container fluid>
+          <h1 className="display-3">Fluid jumbotron</h1>
+          
+        </Container>
+      </Jumbotron>
+    </div>
+
         
-        <Row>
-          <Col xs="6" sm="4">.col-6 .col-sm-4</Col>
-          <Col xs="6" sm="4">.col-6 .col-sm-4</Col>
-          <Col sm="4">.col-sm-4</Col>
-        </Row>
-      </Container>
- 
-            </div>
             </Backcolor>
         );
     }
