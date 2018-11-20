@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
 import NavBar from './NavBar'
 import Carousel from './Carousel'
-import { Jumbotron, Container } from 'reactstrap';
-
+import DropDownn from './DropDownn'
 import styled from 'styled-components'
 import '../Slider.css'
 
@@ -16,16 +15,19 @@ const Backcolor = styled.div`
 `
 
 
-
 class HomePage extends Component {
   render() {
     return (
       <Backcolor>
         
         <div className='Jumbo'>
+        
         </div>
         <div className='MiniJumbo'>
         <h1 className='Word'>STUDIO U</h1>
+      <div className='down'>
+        <DropDownn/>
+        </div>
         </div>
        <Carousel/>
       </Backcolor>

@@ -5,7 +5,6 @@
          url('minaxi_hairline_text-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 .slides{
     height: 600px;
@@ -17,34 +16,48 @@
      height: 600px;
      width:  100vw;
      margin-bottom: 0%;
-   
  }
  .log{
      height: 5px;
      width: 10px;
  }
- .Jumbo{
-     height: 18rem;
-     width: 15rem;
-     margin-left: 25px;
-     background-color: white;
-     z-index: 7;
-     position: relative;
- }
- .MiniJumbo{
-     height: 50px;
-     width: 15rem;
-     margin-top: -150px;
-     margin-left: 25px;
-     color: dimgrey;
-     border: solid rgba(0, 0, 0, 0.057);
-     text-align: center;
-     font-family: 'minaxihairline_text';
-     z-index: 7;
-     position: relative;
-     
- }
+
+
  .Word{
      text-shadow: 5px 5px rgba(228, 223, 223, 0.79);
      font-weight: bold;
  }
+.dropdown-toggle{ 
+    margin-top: -0px;
+    background-color: white;
+ }
+
+ .btn-secondary{
+     background-color: white !important;
+     border: white !important ;
+     margin-top:-85px ;
+     margin-left: -55px;
+     z-index: 3;
+     position: absolute;
+ }
+
+ .MiniJumbo{
+    height: 50px;
+    width: 15rem;
+    margin-top: -220px;
+    margin-left: 25px;
+    color: dimgrey;
+    border: solid rgba(0, 0, 0, 0.057);
+    text-align: center;
+    font-family: 'minaxihairline_text';
+    z-index: 2;
+    position: relative;
+}
+.Jumbo{
+    height: 18rem;
+    width: 15rem;
+    margin-left: 25px;
+    background-color: white;
+    z-index: 2;
+    position: relative;
+}
