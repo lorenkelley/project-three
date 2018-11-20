@@ -27,8 +27,8 @@ export default class DropDownn extends React.Component {
         </DropdownToggle>
         <DropdownMenu>
         <Link to='/'> <DropdownItem> HOME</DropdownItem> </Link> 
-        <DropdownItem> SIGN IN</DropdownItem>
-        <DropdownItem>ADMIN</DropdownItem>
+        <Link to='/sign-in'><DropdownItem> SIGN IN</DropdownItem></Link> 
+        <Link to='/admin'><DropdownItem>ADMIN</DropdownItem></Link>  
         <DropdownItem>Another Action</DropdownItem>
         </DropdownMenu>
       </Dropdown>

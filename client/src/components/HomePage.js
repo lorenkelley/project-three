@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import NavBar from './NavBar'
-// import Carousel from './Carousel'
+import Carousel from './Carousel'
 import DropDownn from './DropDownn'
 import styled from 'styled-components'
 import '../Slider.css'
@@ -26,10 +26,7 @@ class HomePage extends Component {
         <DropDownn/>
         </div>
         </div>
-       {/* <Carousel/> */}
-       <div className='homeText'>
-         <h1 className='homeTextH1'> The Perfect Tool For Creatives</h1>
-         </div>  
+       <Carousel/>
       </Backcolor>
     );
   }
