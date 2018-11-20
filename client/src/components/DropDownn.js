@@ -1,7 +1,7 @@
 import React from 'react';
 import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 import '../Slider.css'
-
+import {Link} from 'react-router-dom'
 
 export default class DropDownn extends React.Component {
   constructor(props) {
@@ -26,11 +26,10 @@ export default class DropDownn extends React.Component {
           Dropdown
         </DropdownToggle>
         <DropdownMenu>
-          <DropdownItem header>Header</DropdownItem>
-          <DropdownItem disabled>Action</DropdownItem>
-          <DropdownItem>Another Action</DropdownItem>
-          <DropdownItem divider />
-          <DropdownItem>Another Action</DropdownItem>
+        <Link to='/'> <DropdownItem> HOME</DropdownItem> </Link> 
+        <DropdownItem> SIGN IN</DropdownItem>
+        <DropdownItem>ADMIN</DropdownItem>
+        <DropdownItem>Another Action</DropdownItem>
         </DropdownMenu>
       </Dropdown>
     );
