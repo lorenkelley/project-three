@@ -6,17 +6,17 @@ import '../Slider.css'
 
 const items = [
   {
-    src: 'http://www.simpleimageresizer.com/_uploads/photos/632b38de/loft_1100x600.jpeg',
+    src: 'http://www.simpleimageresizer.com/_uploads/photos/632b38de/dinning_1100x600.jpeg',
    
   },
   {
-    src: 'http://www.simpleimageresizer.com/_uploads/photos/632b38de/blackresturant_3_1100x600.jpeg',
+    src: 'http://www.simpleimageresizer.com/_uploads/photos/632b38de/jgarden_1100x600.jpeg',
   //   altText: 'Slide 2',
   //   caption: 'Slide 2'
   // 
 },
   {
-    src: 'http://www.simpleimageresizer.com/_uploads/photos/632b38de/chairs_1100x600.jpeg',
+    src: 'http://www.simpleimageresizer.com/_uploads/photos/632b38de/oceandinning_1100x600.jpeg',
     // altText: 'Slide 3',
     // caption: 'Slide 3'
   }

@@ -60,4 +60,5 @@
     background-color: white;
     z-index: 2;
     position: relative;
+    box-shadow: 1px 1px 1px 1px rgba(233, 231, 231, 0.185);
 }
