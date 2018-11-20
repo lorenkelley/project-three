@@ -54,6 +54,7 @@
     position: relative;
 }
 .Jumbo{
+    
     height: 18rem;
     width: 15rem;
     margin-left: 25px;
@@ -61,4 +62,12 @@
     z-index: 2;
     position: relative;
     box-shadow: 1px 1px 1px 1px rgba(233, 231, 231, 0.185);
+}
+.places{
+    border: white solid;
+    /* height: 700px;
+    width: 700px; */
+    margin: auto;
+    background-image: url('./images/minutes.jpg');
+
 }
