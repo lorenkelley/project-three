@@ -9,13 +9,7 @@ const Backcolor = styled.div`
  border: solid 20px white;
  height: 900px;
  width: 90rem;
-
-//  background-image: linear-gradient( #8e9eab
-// , #eef2f3) ;
- //background-image: linear-gradient(  #000000, #434343) ;
- background-image: linear-gradient( #dbe6f6, 
-  #c5796d) ;
-
+ background-image: linear-gradient( #ece9e6 , #ffffff) ;
 `
 
 
@@ -23,11 +17,8 @@ class HomePage extends Component {
   render() {
     return (
       <Backcolor>
-        <div className='places'>
-
-        </div>
+     
         <div className='Jumbo'>
-        <h1>hello</h1>
         </div>
         <div className='MiniJumbo'>
         <h1 className='Word'>STUDIO U</h1>
@@ -36,6 +27,9 @@ class HomePage extends Component {
         </div>
         </div>
        {/* <Carousel/> */}
+       <div className='homeText'>
+         <h1 className='homeTextH1'> The Perfect Tool For Creatives</h1>
+         </div>  
       </Backcolor>
     );
   }

@@ -24,7 +24,7 @@
 
 
  .Word{
-     text-shadow: 5px 5px rgba(228, 223, 223, 0.79);
+     text-shadow: 3px 3px rgba(228, 223, 223, 0.39);
      font-weight: bold;
  }
 .dropdown-toggle{ 
@@ -33,12 +33,13 @@
  }
 
  .btn-secondary{
-     background-color: white !important;
-     border: white !important ;
-     margin-top:-85px ;
+     background-color: rgba(0, 0, 0, 0) !important;
+     border: rgba(255, 255, 255, 0.749) !important ;
+     margin-top:-20px ;
      margin-left: -55px;
      z-index: 3;
      position: absolute;
+     
  }
 
  .MiniJumbo{
@@ -46,7 +47,7 @@
     width: 15rem;
     margin-top: -220px;
     margin-left: 25px;
-    color: dimgrey;
+    color: rgb(255, 255, 255);
     border: solid rgba(0, 0, 0, 0.057);
     text-align: center;
     font-family: 'minaxihairline_text';
@@ -59,15 +60,29 @@
     width: 15rem;
     margin-left: 25px;
     background-color: white;
+    background-position: top;
+    background:linear-gradient(0deg,#dae2f8c0
+    , #d6a4a4d5),url('https://66.media.tumblr.com/615fb30dd18a58231fb67fde7717216d/tumblr_phi4thgHFP1w3y4ilo1_640.gif');
+
+
     z-index: 2;
     position: relative;
     box-shadow: 1px 1px 1px 1px rgba(233, 231, 231, 0.185);
 }
 .places{
     border: white solid;
-    /* height: 700px;
-    width: 700px; */
+    height: 700px;
+    width: 700px;
     margin: auto;
-    background-image: url('./images/minutes.jpg');
+}
+.homeText{
+    color: rgb(211, 210, 210);
+    margin-left: 35%;
+    animation: text-focus-in 5s; 
+    font-family: 'minaxihairline_text';
+}
+@keyframes text-focus-in{0%{-webkit-filter:blur(12px);filter:blur(12px);opacity:0}100%{-webkit-filter:blur(0);filter:blur(0);opacity:1}}@keyframes text-focus-in{0%{-webkit-filter:blur(12px);filter:blur(12px);opacity:0}100%{-webkit-filter:blur(0);filter:blur(0);opacity:1}};
 
+h1 .homeTextH1 {
+    font-size: 200px;
 }
