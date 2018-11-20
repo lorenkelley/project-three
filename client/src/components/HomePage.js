@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import NavBar from './NavBar'
 import Carousel from './Carousel'
 import DropDownn from './DropDownn'
 import styled from 'styled-components'
@@ -7,7 +6,7 @@ import '../Slider.css'
 
 const Backcolor = styled.div`
  border: solid 20px white;
- height: 900px;
+ height: 500px;
  width: 90rem;
  background-image: linear-gradient( #ece9e6 , #ffffff) ;
 `
