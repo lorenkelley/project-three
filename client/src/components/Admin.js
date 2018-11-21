@@ -3,6 +3,20 @@ import axios from 'axios'
 import {Link} from 'react-router-dom'
 import EditUser from './EditUser'
 import {Container, Col, FormGroup, Label, Input, Button} from 'reactstrap'
+import styled from 'styled-components'
+
+
+const Backcolor = styled.div`
+ border: solid 20px white;
+ height: 900px;
+ width: 90rem;
+ background:linear-gradient(0deg,#dae2f8c0
+    , #d6a4a4d5);
+
+background-size: fill;
+`
+
+
 
 class Admin extends Component {
     state ={
@@ -41,21 +55,22 @@ class Admin extends Component {
 
     render() {
         return (
-            <div>
+            <div> 
+                <Backcolor>
                 {this.state.users.map((user) => (
                     // .map
                     
                     <div key={user._id}>
-                   <Link to={`/users/${user._id}`}>{user.username}</Link> 
+                   <Link to={`/users/${user._id}`}>{user.username}</Link> <br/>
                     {user.email}
                 
                     <button onClick={() => this.handleDelete(user._id)}>
-                    Delete this user
+                    Delete User
            </button>
             <EditUser {...this.props}/>
                     </div>
                 ))}
-
+</Backcolor>
             </div>
         );
     }
