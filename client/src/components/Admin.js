@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios'
 import {Link} from 'react-router-dom'
 import EditUser from './EditUser'
+import {Container, Col, FormGroup, Label, Input, Button} from 'reactstrap'
 
 class Admin extends Component {
     state ={
@@ -41,7 +42,6 @@ class Admin extends Component {
     render() {
         return (
             <div>
-                <h3>ALL USERS</h3>
                 {this.state.users.map((user) => (
                     // .map
                     

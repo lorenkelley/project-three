@@ -6,17 +6,18 @@ import '../Slider.css'
 
 const items = [
   {
-    src: 'http://www.simpleimageresizer.com/_uploads/photos/632b38de/boho_1_1000x600.jpg',
-   
+    src: 'http://www.simpleimageresizer.com/_uploads/photos/a5c0ba66/outsidesmallhouse_1000x600.jpg',
   },
   {
-    src: 'http://www.simpleimageresizer.com/_uploads/photos/632b38de/decklivingroom_1_1000x600.jpg',
+    src: 'http://www.simpleimageresizer.com/_uploads/photos/a5c0ba66/cozy_1000x600.jpg',
   //   altText: 'Slide 2',
   //   caption: 'Slide 2'
   // 
 },
   {
-    src: '',
+
+    src: 'http://www.simpleimageresizer.com/_uploads/photos/a5c0ba66/livingroom1_1000x600.jpg',
+
     // altText: 'Slide 3',
     // caption: 'Slide 3'
   }

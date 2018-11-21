@@ -14,6 +14,7 @@ const Backcolor = styled.div`
 `
 const Studio = styled.h1`
     font-size: 150px;
+   
 `
 
 class SplashPage extends Component {
@@ -23,7 +24,7 @@ class SplashPage extends Component {
             <div className='heading'>
          <div className='homeText'>
          <Studio>
-         STUDIO   U
+         STUDIO-U
           </Studio>
          </div>  
          </div>
