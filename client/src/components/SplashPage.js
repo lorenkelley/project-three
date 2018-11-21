@@ -4,7 +4,7 @@ import JumboTron from './JumboTron'
 
 const Backcolor = styled.div`
 
- border: solid 20px white;
+ border: solid 20px  #ece9e6 ;
  height: 500px;
  width: 90rem;
  background:linear-gradient(0deg, 

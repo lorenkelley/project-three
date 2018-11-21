@@ -60,8 +60,7 @@
     width: 15rem;
     margin-left: 25px;
     background-color: white;
-    background:(0deg
-     #d6a4a4d5),url('https://66.media.tumblr.com/615fb30dd18a58231fb67fde7717216d/tumblr_phi4thgHFP1w3y4ilo1_640.gif');
+    background:linear-gradient( #d6a4a4d5, #ffff),url('https://66.media.tumblr.com/615fb30dd18a58231fb67fde7717216d/tumblr_phi4thgHFP1w3y4ilo1_640.gif');
     z-index: 2;
     position: relative;
     box-shadow: 1px 1px 1px 1px rgba(233, 231, 231, 0.185);
