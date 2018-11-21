@@ -12,7 +12,7 @@ const Tron = (props) => {
         <hr className="my-2" />
         <p></p>
         <p className="lead">
-          <Button color="primary">Learn More</Button>
+          <Button color='light'>Learn More</Button>
         </p>
       </Jumbotron>
     </div>

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios'
 import {Link} from 'react-router-dom'
+import EditUser from './EditUser'
 
 class Admin extends Component {
     state ={
@@ -28,6 +29,14 @@ class Admin extends Component {
           this.setState({ users: filtered })
         })
       }
+      handleChange = event => {
+        console.log("name", event.target.name);
+        console.log("value", event.target.value);
+        const updatedNewUser = { ...this.state.newUser };
+        // event target name wil be either 'username or password'
+        updatedNewUser[event.target.name] = event.target.value;
+        this.setState({ newUser: updatedNewUser });
+      }
 
     render() {
         return (
@@ -43,6 +52,7 @@ class Admin extends Component {
                     <button onClick={() => this.handleDelete(user._id)}>
                     Delete this user
            </button>
+            <EditUser {...this.props}/>
                     </div>
                 ))}
 

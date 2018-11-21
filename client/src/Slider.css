@@ -60,11 +60,8 @@
     width: 15rem;
     margin-left: 25px;
     background-color: white;
-   
-    background:linear-gradient(0deg, 
-    #304352d8, #d7d2cc),url('https://66.media.tumblr.com/615fb30dd18a58231fb67fde7717216d/tumblr_phi4thgHFP1w3y4ilo1_640.gif');
-
-
+    background:(0deg
+     #d6a4a4d5),url('https://66.media.tumblr.com/615fb30dd18a58231fb67fde7717216d/tumblr_phi4thgHFP1w3y4ilo1_640.gif');
     z-index: 2;
     position: relative;
     box-shadow: 1px 1px 1px 1px rgba(233, 231, 231, 0.185);
@@ -76,12 +73,12 @@
     margin: auto;
 }
 .homeText{
-    color: rgb(140, 138, 138);
+    color: rgba(43, 40, 40, 0.454);
     margin-left: 20%;
     animation: text-focus-in 5s; 
     font-family: 'minaxihairline_text';
     font-size: 200px !important;
-    text-shadow: 3px 3px rgba(167, 165, 165, 0.55);
+    text-shadow: 3px 3px rgb(167, 165, 165);
 }
 @keyframes text-focus-in{0%{-webkit-filter:blur(52px);filter:blur(52px);opacity:0}100%{-webkit-filter:blur(0);filter:blur(0);opacity:1}}@keyframes text-focus-in{0%{-webkit-filter:blur(12px);filter:blur(12px);opacity:0}100%{-webkit-filter:blur(0);filter:blur(0);opacity:1}};
 
@@ -90,17 +87,15 @@ h1{
 }
 .heading{
     margin-left: 0%;
-    margin-top: 15%;
+    margin-top: 10%;
     border: none;
     height: 200px;
-    background-image: linear-gradient( #ffffff) ;
+    background-image: linear-gradient( #ffece9bb , #ffff) ;
 }
 .jumbotron{
     background:linear-gradient(0deg, 
-   
-#bbd2c5
-,
-#aa4f7ec9) , url('https://66.media.tumblr.com/615fb30dd18a58231fb67fde7717216d/tumblr_phi4thgHFP1w3y4ilo1_640.gif');
+    #dae2f8c0
+    , #d6a4a4d5) , url('https://66.media.tumblr.com/615fb30dd18a58231fb67fde7717216d/tumblr_phi4thgHFP1w3y4ilo1_640.gif');
     color: white;
     font-family: 'minaxihairline_text';
 

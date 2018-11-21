@@ -22,7 +22,7 @@ class SignInForm extends Component {
 
             console.log(res.data)
 
-            this.props.history.push(`/locations`)
+            this.props.history.push(`/user:id`)
         })
     }
     render() {
