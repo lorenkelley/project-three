@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import axios from 'axios'
 import {Link} from 'react-router-dom'
 import EditUser from './EditUser'
-import {Container, Col, FormGroup, Label, Input, Button} from 'reactstrap'
 import styled from 'styled-components'
 
 
@@ -59,7 +58,6 @@ class Admin extends Component {
                 <Backcolor>
                 {this.state.users.map((user) => (
                     // .map
-                    
                     <div key={user._id}>
                    <Link to={`/users/${user._id}`}>{user.username}</Link> <br/>
                     {user.email}

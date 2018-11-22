@@ -18,7 +18,7 @@ class Location extends Component {
     render() {
         return (
             <Backcolor>
-                
+                <h1> Atlanta </h1>
             </Backcolor>
         );
     }

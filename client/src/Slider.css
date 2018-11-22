@@ -21,9 +21,7 @@
      height: 5px;
      width: 10px;
  }
-
-
- .Word{
+.Word{
      text-shadow: 3px 3px rgba(228, 223, 223, 0.39);
      font-weight: bold;
  }
@@ -31,8 +29,7 @@
     margin-top: -0px;
     background-color: white;
  }
-
- .btn-secondary{
+.btn-secondary{
      background-color: rgba(0, 0, 0, 0) !important;
      border: rgba(255, 255, 255, 0.749) !important ;
      margin-top:-20px ;
@@ -41,7 +38,6 @@
      position: absolute;
      
  }
-
  .MiniJumbo{
     height: 50px;
     width: 15rem;

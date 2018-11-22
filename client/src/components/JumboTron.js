@@ -12,7 +12,6 @@ const Tron = (props) => {
         <hr className="my-2" />
         <p></p>
         <p className="lead">
-        <Link to='/'> <Button color='light'>Learn More</Button></Link> 
         </p>
       </Jumbotron>
     </div>

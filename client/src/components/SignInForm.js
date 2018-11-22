@@ -3,7 +3,7 @@ import axios from 'axios'
 // axios is a libray that allows you to make AJAX calls it connects the frontend to the backend
 import {Container, Col, FormGroup, Label, Input, Button} from 'reactstrap'
 
-
+import {Link} from 'react-router-dom'
 
 
 
@@ -26,7 +26,7 @@ class SignInForm extends Component {
 
             console.log(res.data)
 
-            this.props.history.push(`/admin`)
+            this.props.history.push(`/user`)
         })
     }
     render() {
@@ -47,7 +47,7 @@ class SignInForm extends Component {
                         <Label htmlFor="email">Email</Label>
                         <Input onChange={this.handleInput} value={this.state.email} type="email" name="email" />
                     </div>
-                    <Button type="submit">Create Account</Button>
+                    <Link to='/admin'><Button type="submit">Create Account</Button></Link>
 
                 </FormGroup>
                 </Col>

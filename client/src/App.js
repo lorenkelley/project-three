@@ -18,7 +18,7 @@ class App extends Component {
              when you use compnents and call axios
              the routes you have in your  index.js you link them to the components to those specfic routes 
              <Route path="/:id" component={}/>  */}
-             <Route path="/splashpage" component={SplashPage}/> 
+             <Route exact path="/splashpage" component={SplashPage}/> 
              <Route exact path="/sign-in" component={SignInPage}/> 
              <Route exact path="/user" component={Admin}/> 
              <Route exact path="/locations" component={Location}/>
