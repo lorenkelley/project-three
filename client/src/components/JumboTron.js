@@ -2,6 +2,7 @@ import React from 'react';
 import { Jumbotron, Button } from 'reactstrap';
 import {Link} from 'react-router-dom'
 
+
 const Tron = (props) => {
   return (
     <div>
@@ -12,6 +13,9 @@ const Tron = (props) => {
         <hr className="my-2" />
         <p></p>
         <p className="lead">
+       
+        <Link to='/sign-in'> <Button color='light'>Learn More</Button></Link> 
+       
         </p>
       </Jumbotron>
     </div>

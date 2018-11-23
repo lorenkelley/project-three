@@ -29,6 +29,11 @@
     margin-top: -0px;
     background-color: white;
  }
+.signInBtn button{
+    color: black;
+    background-color: gray;
+}
+
 .btn-secondary{
      background-color: rgba(0, 0, 0, 0) !important;
      border: rgba(255, 255, 255, 0.749) !important ;
@@ -138,4 +143,12 @@ h1{
   border: none;
   color: white;
   font-size:;
+}
+.form{
+
+    font-family: 'minaxihairline_text';
+    font-size: 20px;
+    color: hsl(0, 0%, 100%);
+    text-shadow: 1.5px 1.5px rgba(230, 230, 230, 0.144);
+    
 }

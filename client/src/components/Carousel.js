@@ -6,7 +6,7 @@ import '../Slider.css'
 
 const items = [
   {
-    src: 'http://www.simpleimageresizer.com/_uploads/photos/a5c0ba66/outsidesmallhouse_1000x600.jpg',
+    src: './images/cowhidelivingroom.jpeg',
   },
   {
     src: 'http://www.simpleimageresizer.com/_uploads/photos/a5c0ba66/cozy_1000x600.jpg',
