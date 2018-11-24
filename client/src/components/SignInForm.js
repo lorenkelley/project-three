@@ -61,7 +61,7 @@ class SignInForm extends Component {
                         <Input onChange={this.handleInput} value={this.state.email} type="email" name="email" />
                     </div>
                     <br></br>
-                    <Link to='/admin'><Button className='signInBtn' type="submit">Create Account</Button></Link>
+                    <Link to='/user'><Button className='signInBtn' type="submit">Create Account</Button></Link>
 
                 </FormGroup>
                 </Col>
@@ -73,3 +73,4 @@ class SignInForm extends Component {
 }
 
 export default SignInForm;
+

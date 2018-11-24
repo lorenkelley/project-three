@@ -1,5 +1,19 @@
 import React, { Component } from 'react';
-import axios from "axios";
+import axios from "axios"
+import styled from 'styled-components'
+import '../Slider.css'
+
+
+const Backcolor = styled.div`
+
+ height: 900px;
+ width: 80rem;
+ font-family: 'minaxihairline_text';
+ font-size: 20px;
+ text-align: center;
+`
+
+
 
 class EditUser extends Component {
     state = {
@@ -46,7 +60,7 @@ class EditUser extends Component {
       };
     render() {
         return (
-            
+            <Backcolor>
             <div>
                 <h1>Edit Your Profile Login</h1>
                 <form onSubmit={() => this.handleSubmit(this.state.user._id)}>
@@ -69,9 +83,10 @@ class EditUser extends Component {
             />
                     </div>
                     
-          <button type="submit">Edit User</button>
+          <button className='btn btn-light' type="submit">Edit User</button>
         </form>
             </div>
+            </Backcolor>
         );
     }
 }

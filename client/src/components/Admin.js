@@ -3,16 +3,16 @@ import axios from 'axios'
 import {Link} from 'react-router-dom'
 import EditUser from './EditUser'
 import styled from 'styled-components'
-
+import DropDownn from './DropDownn'
 
 const Backcolor = styled.div`
  border: solid 20px white;
  height: 900px;
- width: 90rem;
- background:linear-gradient(0deg,#dae2f8c0
-    , #d6a4a4d5);
-
-background-size: fill;
+ width: 80rem;
+ background-image: linear-gradient( #ece9e6 , #ffffff) ;
+ font-family: 'minaxihairline_text';
+ font-size: 20px;
+ text-align: center;
 `
 
 
@@ -54,22 +54,32 @@ class Admin extends Component {
 
     render() {
         return (
+            <Backcolor>
             <div> 
-                <Backcolor>
+           <div className='Jumbo'>
+        </div>
+        <div className='MiniJumbo'>
+        <h1 className='Word'>STUDIO U</h1>
+      <div className='down'>
+        <DropDownn/>
+        </div>
+        </div>
                 {this.state.users.map((user) => (
                     // .map
                     <div key={user._id}>
                    <Link to={`/users/${user._id}`}>{user.username}</Link> <br/>
                     {user.email}
                 
-                    <button onClick={() => this.handleDelete(user._id)}>
+                    <button className='btn btn-light' onClick={() => this.handleDelete(user._id)}>
                     Delete User
            </button>
             <EditUser {...this.props}/>
                     </div>
+                  
                 ))}
-</Backcolor>
+
             </div>
+            </Backcolor>
         );
     }
 }

@@ -4,6 +4,7 @@ import DropDownn from './DropDownn'
 import { Jumbotron, Container } from 'reactstrap'
 import styled from 'styled-components'
 import '../Slider.css'
+import {Link} from 'react-router-dom'
 
 const Backcolor = styled.div`
  border: solid 20px white;
@@ -51,13 +52,16 @@ class UserProfile extends Component {
       
           <h1 className="display-3">Hello {this.state.user.username}</h1>
           <p className="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+     <Link to='/locations'><div className='largeBtn'>
+    
        <div className='location1'>
            
        </div>
        <div className='location2'>
-           
+     
        </div>
-       {/* <img src={"./images/locationlist.png"} height={300} width={400}></img> */}
+     
+       </div></Link> 
       </Jumbotron>
     </div>
    </Backcolor>
