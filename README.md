@@ -1,5 +1,5 @@
- # Project Description
- ### Build a simple game as a Web Application. To demonstrate your ability to use HTML and CSS to build and style an intuitive web application and to demonstrate your competancy in DOM manipulation using JavaScript.
+ <!-- # Project Description
+ ### Build a simple game as a Web Application. To demonstrate your ability to use HTML and CSS to build and style an intuitive web application and to demonstrate your competancy in DOM manipulation using JavaScript. -->
 
 
 # STUDIO-U 
