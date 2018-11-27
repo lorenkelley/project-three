@@ -6,17 +6,17 @@ import '../Slider.css'
 
 const items = [
   {
-    src: 'data:image/https://cdn.freshome.com/wp-content/uploads/2018/01/decorator-living.jpg' ,
+    src: 'https://www.blms.io/wp-content/uploads/2018/09/2017-fall-home-decor-trends-1.jpg' ,
   },
   {
-    src: 'http://www.simpleimageresizer.com/_uploads/photos/a5c0ba66/cozy_1000x600.jpg',
+    src: 'https://scstylecaster.files.wordpress.com/2017/12/gorgeous-bright-living-room.jpg',
   //   altText: 'Slide 2',
   //   caption: 'Slide 2'
   // 
 },
   {
 
-    src: 'http://www.simpleimageresizer.com/_uploads/photos/a5c0ba66/livingroom1_1000x600.jpg',
+    src: 'https://cdn2.atlantamagazine.com/wp-content/uploads/sites/4/2018/08/0718_WhitneyDurham5_LauraNegriChilders_oneuseonly.jpg',
 
     // altText: 'Slide 3',
     // caption: 'Slide 3'
