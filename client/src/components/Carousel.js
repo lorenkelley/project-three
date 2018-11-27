@@ -6,7 +6,7 @@ import '../Slider.css'
 
 const items = [
   {
-    src: './images/cowhidelivingroom.jpeg',
+    src: 'data:image/https://cdn.freshome.com/wp-content/uploads/2018/01/decorator-living.jpg' ,
   },
   {
     src: 'http://www.simpleimageresizer.com/_uploads/photos/a5c0ba66/cozy_1000x600.jpg',

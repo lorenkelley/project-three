@@ -69,7 +69,6 @@ class Admin extends Component {
                     <div key={user._id}>
                    <Link to={`/users/${user._id}`}>{user.username}</Link> <br/>
                     {user.email}
-                
                     <button className='btn btn-light' onClick={() => this.handleDelete(user._id)}>
                     Delete User
            </button>

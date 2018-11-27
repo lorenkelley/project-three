@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import axios from 'axios'
 // axios is a libray that allows you to make AJAX calls it connects the frontend to the backend
 import {Container, Col, FormGroup, Label, Input, Button} from 'reactstrap'
-import {Link} from 'react-router-dom'
 import styled from 'styled-components'
 
 
@@ -22,7 +21,8 @@ class SignInForm extends Component {
     state = {
         username: '',
         // set as empty string
-        password: ''
+        password: '',
+        email: ''
     }
     handleInput = (event) => {
         const { name, value } = event.target
@@ -61,7 +61,7 @@ class SignInForm extends Component {
                         <Input onChange={this.handleInput} value={this.state.email} type="email" name="email" />
                     </div>
                     <br></br>
-                    <Link to='/user'><Button className='signInBtn' type="submit">Create Account</Button></Link>
+                <Button className='signInBtn' type="submit">Create Account</Button>
 
                 </FormGroup>
                 </Col>
