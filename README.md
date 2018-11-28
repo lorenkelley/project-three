@@ -6,10 +6,11 @@
 4. Select your name from the list 
 5. View your preferred locations 
 6. Select a location and view the properties available
- ## Technologies (Libraries and Frameworks)
-1. Bootstrap
-2. Sweet Alert
-3. Google Fonts
+## Technologies (Libraries and Frameworks)
+1. React
+2. MongoDB
+3. Express
+4. Reactstrap
  ## Wireframe
  [Check Out My Wireframe Here:](https://www.figma.com/file/H1902NX1Iv6VkXrMbPg2miJ3/Project-3)
 ### *please note erd is on the first page of wireframe*
